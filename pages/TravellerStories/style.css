@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+     border: 0;
+     box-sizing: border-box;
+ }
+  
+ html,body{
+     width: 100%;
+     background-color: aliceblue;
+     overflow: hidden;
+ }
+  
+ main{
+     width:100%;
+ }
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: fit-content;
+    padding: 2vw;
+    gap:1.5vw
+ }
+
+ #fix{
+    height: 22vh;
+ }
+
+ nav img{
+    height: 20vh;
+    width: auto;
+ }
+
+

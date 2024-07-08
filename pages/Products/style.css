@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+     border: 0;
+     box-sizing: border-box;
+     font-family: "Roboto";
+ }
+  
+ html,body{
+     width: 100%;
+     background-color: aliceblue;
+     overflow: hidden;
+ }
+  
+ main{
+     width:100%;
+     display: flex;
+ }
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: fit-content;
+    padding: 2vw;
+    gap:1.5vw
+ }
+
+ #fix{
+    height: 22vh;
+ }
+
+ nav img{
+    height: 20vh;
+    width: auto;
+ }
+
+ #page{
+    /* background-color: black; */
+    width: 90vw;
+    height: 100vw;
+    padding: 4vw;
+ }
+
+ #page h1{
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #348097;
+    text-transform: uppercase;
+    font-size: 1.8vw;
+ }
+
+ #page-content{
+    display: flex;
+    padding: 2vw 1vw;
+    gap: 10%;
+    /* justify-content: space-evenly; */
+ }
+
+ .card{
+    width: 45%;
+    padding: 1vw;
+ }
+
+ .card h2{
+    font-weight: 700;
+    font-size: 1.7vw;
+    color: #2d4c56;
+ }
+
+ .mini
+ {  
+    margin-left: 1vw;
+    margin-top: 10vw;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 100% 100% 1% 1%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/217/43/755/apple-devices-apple-keyboard-blur-coffee-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center 30%;
+ }
+
+
+ .macro
+ {  
+    margin-left: 1vw;
+    margin-top: 2vw;
+    width: 25vw;
+    height: 60vh;
+    border-radius: 100% 100% 1% 1%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/20/187/806/rain-cityscape-water-on-glass-bokeh-wallpaper-preview.jpg);
+    background-size: cover;
+ }
+
+
+
