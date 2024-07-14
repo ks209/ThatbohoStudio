@@ -74,7 +74,7 @@ hyperImages.forEach(function (hi, key) {
         default:
           break;
       }
-    }, 2000);
+    }, 1500);
   });
 });
 
